@@ -1,0 +1,4 @@
+@import url('../__text-travel/intro__text-travel.css');
+.intro__content-row {
+    display: flex;
+}

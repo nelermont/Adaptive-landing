@@ -1,0 +1,43 @@
+@import url('../__item-bg_kamchatka/video__item-bg_kamchatka.css');
+@import url('../__item-bg_observatory/video__item-bg_observatory.css');
+@import url('../__icon-play/video__icon-play.css');
+@import url('../__duration/video__duration.css');
+@import url('../__title/video__title.css');
+@import url('../__subtitle/video__subtitle.css');
+
+.video__item-bg {
+  width: 583px;
+  max-width: calc((100% - 18px)/2);
+  padding-bottom: 3%;
+  text-decoration: none;
+}
+
+.video__item-bg:hover {
+  -moz-box-shadow: 0 0 10px #000;
+  -webkit-box-shadow: 0 0 10px #000;
+  box-shadow: 0 0 10px #000;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (max-width: 768px) {
+  .video__item-bg {
+    margin-top: -8px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .video__item-bg {
+    max-width: 100%;
+    margin-bottom: 16px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .video__item-bg {
+    max-width: 100%;
+    margin-bottom: 16px;
+  }
+}

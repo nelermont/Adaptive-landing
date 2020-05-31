@@ -1,0 +1,30 @@
+.intro__text-travel {
+    max-width: 683px;
+    margin: 0;
+    margin-top: 4px;
+    padding-right: 18px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 768px) {
+    .intro__text-travel {
+        max-width: 100%;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .intro__text-travel {
+        font-size: 15px;
+        line-height: 27px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .intro__text-travel {
+        margin-top: 10px;
+    }
+}

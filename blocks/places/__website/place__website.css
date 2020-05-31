@@ -1,0 +1,9 @@
+@import url('../__url-heading/place__url-heading.css');
+@import url('../__url/place__url.css');
+.place__website {
+    grid-row-start: 1;
+    grid-column-start: 2;
+    grid-row-end: 2;
+    grid-column-end: 2;
+    margin: auto 0 0;
+}

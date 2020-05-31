@@ -1,0 +1,53 @@
+@import url('../__paragraph/place__paragraph.css');
+.place__paragraphs {
+  grid-row-start: 2;
+  grid-column-start: 2;
+  grid-row-end: 2;
+  grid-column-end: 2;
+}
+
+@media screen and (max-width: 1280px) {
+  .place__paragraphs {
+    margin-top: -10px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .place__paragraphs {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__paragraphs {
+    max-width: 100%;
+    margin-top: -10px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .place__paragraphs {
+    max-width: 98%;
+    margin: auto;
+    padding-bottom: 2%;
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .place__paragraphs {
+    max-width: 90%;
+    margin: 0;
+    padding-bottom: 2%;
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__paragraphs {
+    max-width: 100%;
+    padding-bottom: 5%;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+}

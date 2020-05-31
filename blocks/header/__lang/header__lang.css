@@ -1,0 +1,28 @@
+@import url('../_active/header__lang_active.css');
+@import url('../__li/header__li.css');
+.header__lang {
+    margin-left: 12px;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 23px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 768px) {
+    .header__lang {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .header__lang {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header__lang {
+        font-size: 18px;
+    }
+}

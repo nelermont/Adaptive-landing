@@ -1,0 +1,41 @@
+.video__icon-play {
+    position: relative;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+@media screen and (max-width: 1024px) {
+    .video__icon-play {
+        margin-bottom: 27px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .video__icon-play {
+        width: 5vw;
+        margin-top: 25px;
+        margin-left: 25px;
+        margin-bottom: 2px;
+    }
+    .video__item-bg_kamchatka .video__icon-play {
+        margin-bottom: 24px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .video__icon-play {
+        min-width: 40px;
+        margin-top: 24px;
+        margin-left: 23px;
+        padding-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .video__icon-play {
+        min-width: 40px;
+        margin-top: 16px;
+        margin-left: 16px;
+        padding-bottom: 10px;
+    }
+}

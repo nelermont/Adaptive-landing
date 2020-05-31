@@ -1,0 +1,35 @@
+
+@import url('../__item-bg/video__item-bg.css');
+.video__container {
+  display: flex;
+  width: 100%;
+  
+  justify-content: space-between;
+  margin: auto;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .video__container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .video__container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .video__container {
+    width: 100%;
+    margin: auto;
+    margin-top: 40px;
+  }
+}

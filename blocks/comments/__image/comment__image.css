@@ -1,0 +1,15 @@
+.comment__image {
+    max-width: 97px;
+    border-radius: 100px;
+}
+
+.comment__image:hover {
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 768px) {
+    .comment__image {
+        min-width: 60px;
+        border-radius: 100px;
+    }
+}

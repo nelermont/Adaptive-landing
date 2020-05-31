@@ -1,0 +1,50 @@
+.cover__bg {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    margin: auto;
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-image: url(Rect-cover.svg), url(cover.jpg);
+    text-decoration: none;
+}
+
+.cover__bg:hover {
+    -moz-box-shadow: 0 0 10px #000;
+    -webkit-box-shadow: 0 0 10px #000;
+    box-shadow: 0 0 10px #000;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (max-width: 1024px) {
+    .cover__bg {
+        max-height: 562px;
+        background-image: url(Rect-cover1024.svg), url(cover1024.png);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover__bg {
+        min-height: 500px;
+        background-image: url(Rect-cover768.svg), url(cover768.png);
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .cover__bg {
+        min-height: 272px;
+        max-height: 272px;
+        background-image: url(Rect-cover375.svg), url(cover375.png);
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover__bg {
+        min-height: 216px;
+        max-height: 216px;
+        margin-top: 8px;
+    }
+}

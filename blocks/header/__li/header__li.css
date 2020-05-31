@@ -1,0 +1,8 @@
+.header__li {
+    display: inline;
+}
+
+.header__li:hover {
+    opacity: 0.6;
+    transition: opacity 0.1s linear 0.05s;
+}

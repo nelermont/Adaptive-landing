@@ -1,0 +1,41 @@
+.content-title-video {
+    max-width: 800px;
+    margin: 0 auto 33px;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 78px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 1024px) {
+    .content-title-video {
+        max-width: 700px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .content-title-video {
+        max-width: 400px;
+        margin-bottom: 28px;
+        font-size: 42px;
+        /* решить с переносом "и" */
+        line-height: 44px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .content-title-video {
+        max-width: 320px;
+        margin-bottom: 20px;
+        font-size: 30px;
+        line-height: 34px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .content-title-video {
+        max-width: 280px;
+        font-size: 32px;
+    }
+}

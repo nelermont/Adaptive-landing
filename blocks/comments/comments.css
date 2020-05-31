@@ -1,0 +1,39 @@
+@import url('../content-title/content-title.css');
+@import url('../content-subtitle/content-subtitle.css');
+@import url('./__container/comments__container.css');
+@import url('https://rsms.me/inter/inter.css');
+
+
+.comments {
+  max-width: 1184px;
+  margin: auto;
+  padding-top: 112px;
+  font-family: 'Inter', Arial, sans-serif;
+  border: 1px solid red;
+}
+
+@media screen and (max-width: 1024px) {
+  .comments {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .comments {
+    padding-top: 103px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .comments {
+    width: 100%;
+    padding-top: 6px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .comments {
+    width: 100%;
+    padding-top: 0;
+  }
+}
